@@ -1,2 +1,2 @@
 # UKElectionNarratives
-A Dataset of Misleading Narratives Surrounding the UK General Elections
+A Dataset of Misleading Narratives Surrounding Recent UK General Elections
