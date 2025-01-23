@@ -19,7 +19,7 @@ def GPT_call(prompt):
     return response.choices[0].message.content.strip()
 
 
-codebook=pd.read_csv('data/Narratives codebook.tsv',sep="\t")
+codebook=pd.read_csv('data/Narratives_codebook.tsv',sep="\t")
 narratives_desc_dict = codebook.set_index('narrative')['narrative description'].to_dict()
 narratives_list=codebook['narrative'].tolist()
 narratives_list=narratives_list+['None']
